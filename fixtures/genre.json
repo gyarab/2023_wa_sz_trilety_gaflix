@@ -1,0 +1,16 @@
+[
+{
+  "model": "filmy.genre",
+  "pk": 1,
+  "fields": {
+    "name": "Komedie"
+  }
+},
+{
+  "model": "filmy.genre",
+  "pk": 2,
+  "fields": {
+    "name": "Akcni"
+  }
+}
+]

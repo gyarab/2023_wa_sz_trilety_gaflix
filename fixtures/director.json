@@ -1,0 +1,22 @@
+[
+{
+  "model": "filmy.director",
+  "pk": 1,
+  "fields": {
+    "name": "Jan Hrebejk",
+    "birth_year": 1967,
+    "description": "Narodil se v Praze. Po    ve   na FAMU kde studoval obor , dramaturg.    na konci 80. let  ve  produkci dva   CO CHCETE  O SEXU A  SE TO  a L.P. .  napsal spolu s   Petrem   k     Trojana   DOHOLA. Zlom v jeho  vak znamenal  rok 1993,",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.director",
+  "pk": 2,
+  "fields": {
+    "name": "Doug Liman",
+    "birth_year": 1965,
+    "description": "Narodil se v roce 1965 v New Yorku.",
+    "main_picture": ""
+  }
+}
+]

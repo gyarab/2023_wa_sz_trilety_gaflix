@@ -1,0 +1,35 @@
+[
+{
+  "model": "filmy.movie",
+  "pk": 1,
+  "fields": {
+    "name": "Pelíšky",
+    "year": 1999,
+    "footage": 116,
+    "description": "A je tu zpìt jedna z nejúspìšnìjších èeskıch filmovıch komedií od renomovanıch tvùrcù - reiséra J. Høebejka a scenáristy P. Jarchovského s øadou skvìlıch hercù. Vrame se tedy s oblíbenımi postavami k rodinnım rituálùm, láskám a trapasùm odehrávajícím se na sklonku šedesátıch let minulého století v jedné praské ètvrti. Jemná poetika a humorná nadsázka jsou charakteristické pro vyprávìní ivotních osudù tøí generací muù a en ve zvláštním období našich dìjin v roce 1968… V jedné dvoupatrové vile tu ijí dvì rodiny - Šebkovi a Krausovi. Otec Šebek (M. Donutil), prostoduchı, ale dobráckı dùstojník z povolání, je zastáncem panujícího reimu a stejnì vehementnì obhajuje i vlastní neomylnost v roli hlavy rodiny. Elegantní otec Kraus (J. Kodet), bıvalı odbojáø s trpkou váleènou zkušeností, je naopak zarytım opozièníkem. Také on je pøesvìdèenı o tom, e má za všech okolností pravdu - není proto divu, e se tihle dva nemají zrovna v lásce. Jejich dìti - gymnazista Michal (M. Beran) a jeho spoluaèka Jindøiška (K. Nováková) - spolu vycházejí docela dobøe. I kdy Michal by byl rád, kdyby ho jeho sousedka brala trochu víc na vìdomí. Ta má ale oèi pro jiného. Nezbıvá mu tedy nic jiného, ne aby smutnì pøihlíel, jak mu jeho první milostné body krade spoluák Elien (O. Brousek). U Šebkù a Krausù se zatím støídají rodinné návštìvy, ve vší obøadnosti se tu slaví Vánoce, svatba i neèekanı, bolestnı pohøeb. Do zabydlenıch domácností vtrhnou i nìkteré novodobé vymoenosti v podobì umìlohmotnıch lièek, nerozbitnıch sklenic i podivnıch her pro stateèné pionıry. Mláde zatím pokukuje po lákadlech svìta kapitalismu a snaí se ít svùj vlastní, na rodièovskıch autoritách a \"velké\" historii nezávislı ivot.",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 2,
+  "fields": {
+    "name": "Na hranì zítøka",
+    "year": 2014,
+    "footage": 113,
+    "description": "Major Will Cage (Tom Cruise), kterı má na starosti komunikaci s médii, je povolán do Londına ke generálu spojeneckıch sil Brighamovi (Brendan Gleeson) a povìøen pokrytím plánované invaze v první linii. Poté, co se Cage vzpírá a snaí se generálovi nasazení na frontu vymluvit, protoe nemá ádné bojové zkušenosti, pokouší se také generála vydírat. Nakonec se pokusí utéct, je ale chycen a zatímco je omráèen ochrankou, degradován na vojína a odeslán na základnu.\r\n\r\nProbouzí se na vojenské základnì Heathrow, kde se seznamuje s vrchním serantem Farellem (Bill Paxton). Ten u je informován, e Cage je zbìh a e se chce vyhnout boji. Po marné snaze dostat se k telefonu je nakonec odveden mezi vojáky èety “J“. Pøed invazí je Cage navleèen do exoskeletu (Vojín Grif Cageovi neøekne, kde je pojistka ke zbraním) a po trapném útìku je naloen s ostatními do bojového ètyørotorového vrtulníku. Ráno doráí armáda k pobøeí Francie. Tìsnì pøed pøistáním je Cageova loï zasaena do rotoru (ukáe se, e vetøelci o invazi vìdìli pøedem).",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 3,
+  "fields": {
+    "name": "Avengers (2012)",
+    "year": 2012,
+    "footage": 143,
+    "description": "Marvel Studios uvádí super hrdinskı tım všech dob Avengers, ve kterém se pøestaví ikoniètí super hrdinové – Iron Man, Neuvìøitelnı Hulk, Thor, Captain America, Hawkeye a Black Widow. Kdy se objeví neèekanı nepøítel, kterı ohrouje svìtovou bezpeènost, Nick Fury, øeditel mezinárodní mírové agentury, známé také jako S.H.I.E.L.D., zjistí, e potøebuje tım, aby odvrátil svìtovou katastrofu. Zaèíná provádìt nábor po celém svìtì.",
+    "main_picture": ""
+  }
+}
+]
