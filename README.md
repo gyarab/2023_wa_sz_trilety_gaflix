@@ -13,3 +13,6 @@ Initial setup commands
 9. touch .gitignore - do nej venv/
 10. git commit -m [jmeno prvniho comitu př.: "test"]
 11. git push -u origin master
+-----------------------------------
+
+./manage.py createsuperuser
