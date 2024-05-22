@@ -19,4 +19,33 @@
     "main_picture": ""
   }
 }
-]
+ "model": "filmy.director",
+      "pk": 3,
+      "fields": {
+        "name": "Jarmil Fungo",
+        "birth_year": 1967,
+        "description": "legend",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.director",
+      "pk": 4,
+      "fields": {
+        "name": "Michal Jakotoš",
+        "birth_year": 1989,
+        "description": "deaf",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.director",
+      "pk": 5,
+      "fields": {
+        "name": "Jakub Bundoklas",
+        "birth_year": 1986,
+        "description": "no friends",
+        "main_picture": ""
+      }
+    }
+    ]
