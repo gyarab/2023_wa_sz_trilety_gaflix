@@ -18,7 +18,7 @@
     "description": "Narodil se v roce 1965 v New Yorku.",
     "main_picture": ""
   }
-}
+},
  "model": "filmy.director",
       "pk": 3,
       "fields": {
