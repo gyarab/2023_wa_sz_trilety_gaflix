@@ -3,10 +3,10 @@
   "model": "filmy.movie",
   "pk": 1,
   "fields": {
-    "name": "Pelíšky",
+    "name": "PelÃ­Å¡ky",
     "year": 1999,
     "footage": 116,
-    "description": "A je tu zpìt jedna z nejúspìšnìjších èeskıch filmovıch komedií od renomovanıch tvùrcù - reiséra J. Høebejka a scenáristy P. Jarchovského s øadou skvìlıch hercù. Vrame se tedy s oblíbenımi postavami k rodinnım rituálùm, láskám a trapasùm odehrávajícím se na sklonku šedesátıch let minulého století v jedné praské ètvrti. Jemná poetika a humorná nadsázka jsou charakteristické pro vyprávìní ivotních osudù tøí generací muù a en ve zvláštním období našich dìjin v roce 1968… V jedné dvoupatrové vile tu ijí dvì rodiny - Šebkovi a Krausovi. Otec Šebek (M. Donutil), prostoduchı, ale dobráckı dùstojník z povolání, je zastáncem panujícího reimu a stejnì vehementnì obhajuje i vlastní neomylnost v roli hlavy rodiny. Elegantní otec Kraus (J. Kodet), bıvalı odbojáø s trpkou váleènou zkušeností, je naopak zarytım opozièníkem. Také on je pøesvìdèenı o tom, e má za všech okolností pravdu - není proto divu, e se tihle dva nemají zrovna v lásce. Jejich dìti - gymnazista Michal (M. Beran) a jeho spoluaèka Jindøiška (K. Nováková) - spolu vycházejí docela dobøe. I kdy Michal by byl rád, kdyby ho jeho sousedka brala trochu víc na vìdomí. Ta má ale oèi pro jiného. Nezbıvá mu tedy nic jiného, ne aby smutnì pøihlíel, jak mu jeho první milostné body krade spoluák Elien (O. Brousek). U Šebkù a Krausù se zatím støídají rodinné návštìvy, ve vší obøadnosti se tu slaví Vánoce, svatba i neèekanı, bolestnı pohøeb. Do zabydlenıch domácností vtrhnou i nìkteré novodobé vymoenosti v podobì umìlohmotnıch lièek, nerozbitnıch sklenic i podivnıch her pro stateèné pionıry. Mláde zatím pokukuje po lákadlech svìta kapitalismu a snaí se ít svùj vlastní, na rodièovskıch autoritách a \"velké\" historii nezávislı ivot.",
+    "description": "A je tu zpÄ›t jedna z nejÃºspÄ›Å¡nÄ›jÅ¡Ã­ch ÄeskÃ½ch filmovÃ½ch komediÃ­ od renomovanÃ½ch tvÅ¯rcÅ¯ - reÅ¾isÃ©ra J. HÅ™ebejka a scenÃ¡risty P. JarchovskÃ©ho s Å™adou skvÄ›lÃ½ch hercÅ¯. VraÅ¥me se tedy s oblÃ­benÃ½mi postavami k rodinnÃ½m rituÃ¡lÅ¯m, lÃ¡skÃ¡m a trapasÅ¯m odehrÃ¡vajÃ­cÃ­m se na sklonku Å¡edesÃ¡tÃ½ch let minulÃ©ho stoletÃ­ v jednÃ© praÅ¾skÃ© Ätvrti. JemnÃ¡ poetika a humornÃ¡ nadsÃ¡zka jsou charakteristickÃ© pro vyprÃ¡vÄ›nÃ­ Å¾ivotnÃ­ch osudÅ¯ tÅ™Ã­ generacÃ­ muÅ¾Å¯ a Å¾en ve zvlÃ¡Å¡tnÃ­m obdobÃ­ naÅ¡ich dÄ›jin v roce 1968â€¦ V jednÃ© dvoupatrovÃ© vile tu Å¾ijÃ­ dvÄ› rodiny - Å ebkovi a Krausovi. Otec Å ebek (M. Donutil), prostoduchÃ½, ale dobrÃ¡ckÃ½ dÅ¯stojnÃ­k z povolÃ¡nÃ­, je zastÃ¡ncem panujÃ­cÃ­ho reÅ¾imu a stejnÄ› vehementnÄ› obhajuje i vlastnÃ­ neomylnost v roli hlavy rodiny. ElegantnÃ­ otec Kraus (J. Kodet), bÃ½valÃ½ odbojÃ¡Å™ s trpkou vÃ¡leÄnou zkuÅ¡enostÃ­, je naopak zarytÃ½m opoziÄnÃ­kem. TakÃ© on je pÅ™esvÄ›dÄenÃ½ o tom, Å¾e mÃ¡ za vÅ¡ech okolnostÃ­ pravdu - nenÃ­ proto divu, Å¾e se tihle dva nemajÃ­ zrovna v lÃ¡sce. Jejich dÄ›ti - gymnazista Michal (M. Beran) a jeho spoluÅ¾aÄka JindÅ™iÅ¡ka (K. NovÃ¡kovÃ¡) - spolu vychÃ¡zejÃ­ docela dobÅ™e. I kdyÅ¾ Michal by byl rÃ¡d, kdyby ho jeho sousedka brala trochu vÃ­c na vÄ›domÃ­. Ta mÃ¡ ale oÄi pro jinÃ©ho. NezbÃ½vÃ¡ mu tedy nic jinÃ©ho, neÅ¾ aby smutnÄ› pÅ™ihlÃ­Å¾el, jak mu jeho prvnÃ­ milostnÃ© body krade spoluÅ¾Ã¡k Elien (O. Brousek). U Å ebkÅ¯ a KrausÅ¯ se zatÃ­m stÅ™Ã­dajÃ­ rodinnÃ© nÃ¡vÅ¡tÄ›vy, ve vÅ¡Ã­ obÅ™adnosti se tu slavÃ­ VÃ¡noce, svatba i neÄekanÃ½, bolestnÃ½ pohÅ™eb. Do zabydlenÃ½ch domÃ¡cnostÃ­ vtrhnou i nÄ›kterÃ© novodobÃ© vymoÅ¾enosti v podobÄ› umÄ›lohmotnÃ½ch lÅ¾iÄek, nerozbitnÃ½ch sklenic i podivnÃ½ch her pro stateÄnÃ© pionÃ½ry. MlÃ¡deÅ¾ zatÃ­m pokukuje po lÃ¡kadlech svÄ›ta kapitalismu a snaÅ¾Ã­ se Å¾Ã­t svÅ¯j vlastnÃ­, na rodiÄovskÃ½ch autoritÃ¡ch a \"velkÃ©\" historii nezÃ¡vislÃ½ Å¾ivot.",
     "main_picture": ""
   }
 },
@@ -14,10 +14,10 @@
   "model": "filmy.movie",
   "pk": 2,
   "fields": {
-    "name": "Na hranì zítøka",
+    "name": "Na hranÄ› zÃ­tÅ™ka",
     "year": 2014,
     "footage": 113,
-    "description": "Major Will Cage (Tom Cruise), kterı má na starosti komunikaci s médii, je povolán do Londına ke generálu spojeneckıch sil Brighamovi (Brendan Gleeson) a povìøen pokrytím plánované invaze v první linii. Poté, co se Cage vzpírá a snaí se generálovi nasazení na frontu vymluvit, protoe nemá ádné bojové zkušenosti, pokouší se také generála vydírat. Nakonec se pokusí utéct, je ale chycen a zatímco je omráèen ochrankou, degradován na vojína a odeslán na základnu.\r\n\r\nProbouzí se na vojenské základnì Heathrow, kde se seznamuje s vrchním serantem Farellem (Bill Paxton). Ten u je informován, e Cage je zbìh a e se chce vyhnout boji. Po marné snaze dostat se k telefonu je nakonec odveden mezi vojáky èety “J“. Pøed invazí je Cage navleèen do exoskeletu (Vojín Grif Cageovi neøekne, kde je pojistka ke zbraním) a po trapném útìku je naloen s ostatními do bojového ètyørotorového vrtulníku. Ráno doráí armáda k pobøeí Francie. Tìsnì pøed pøistáním je Cageova loï zasaena do rotoru (ukáe se, e vetøelci o invazi vìdìli pøedem).",
+    "description": "Major Will Cage (Tom Cruise), kterÃ½ mÃ¡ na starosti komunikaci s mÃ©dii, je povolÃ¡n do LondÃ½na ke generÃ¡lu spojeneckÃ½ch sil Brighamovi (Brendan Gleeson) a povÄ›Å™en pokrytÃ­m plÃ¡novanÃ© invaze v prvnÃ­ linii. PotÃ©, co se Cage vzpÃ­rÃ¡ a snaÅ¾Ã­ se generÃ¡lovi nasazenÃ­ na frontu vymluvit, protoÅ¾e nemÃ¡ Å¾Ã¡dnÃ© bojovÃ© zkuÅ¡enosti, pokouÅ¡Ã­ se takÃ© generÃ¡la vydÃ­rat. Nakonec se pokusÃ­ utÃ©ct, je ale chycen a zatÃ­mco je omrÃ¡Äen ochrankou, degradovÃ¡n na vojÃ­na a odeslÃ¡n na zÃ¡kladnu.\r\n\r\nProbouzÃ­ se na vojenskÃ© zÃ¡kladnÄ› Heathrow, kde se seznamuje s vrchnÃ­m serÅ¾antem Farellem (Bill Paxton). Ten uÅ¾ je informovÃ¡n, Å¾e Cage je zbÄ›h a Å¾e se chce vyhnout boji. Po marnÃ© snaze dostat se k telefonu je nakonec odveden mezi vojÃ¡ky Äety â€œJâ€œ. PÅ™ed invazÃ­ je Cage navleÄen do exoskeletu (VojÃ­n Grif Cageovi neÅ™ekne, kde je pojistka ke zbranÃ­m) a po trapnÃ©m ÃºtÄ›ku je naloÅ¾en s ostatnÃ­mi do bojovÃ©ho ÄtyÅ™rotorovÃ©ho vrtulnÃ­ku. RÃ¡no dorÃ¡Å¾Ã­ armÃ¡da k pobÅ™eÅ¾Ã­ Francie. TÄ›snÄ› pÅ™ed pÅ™istÃ¡nÃ­m je Cageova loÄ zasaÅ¾ena do rotoru (ukÃ¡Å¾e se, Å¾e vetÅ™elci o invazi vÄ›dÄ›li pÅ™edem).",
     "main_picture": ""
   }
 },
@@ -28,8 +28,41 @@
     "name": "Avengers (2012)",
     "year": 2012,
     "footage": 143,
-    "description": "Marvel Studios uvádí super hrdinskı tım všech dob Avengers, ve kterém se pøestaví ikoniètí super hrdinové – Iron Man, Neuvìøitelnı Hulk, Thor, Captain America, Hawkeye a Black Widow. Kdy se objeví neèekanı nepøítel, kterı ohrouje svìtovou bezpeènost, Nick Fury, øeditel mezinárodní mírové agentury, známé také jako S.H.I.E.L.D., zjistí, e potøebuje tım, aby odvrátil svìtovou katastrofu. Zaèíná provádìt nábor po celém svìtì.",
+    "description": "Marvel Studios uvÃ¡dÃ­ super hrdinskÃ½ tÃ½m vÅ¡ech dob Avengers, ve kterÃ©m se pÅ™estavÃ­ ikoniÄtÃ­ super hrdinovÃ© â€“ Iron Man, NeuvÄ›Å™itelnÃ½ Hulk, Thor, Captain America, Hawkeye a Black Widow. KdyÅ¾ se objevÃ­ neÄekanÃ½ nepÅ™Ã­tel, kterÃ½ ohroÅ¾uje svÄ›tovou bezpeÄnost, Nick Fury, Å™editel mezinÃ¡rodnÃ­ mÃ­rovÃ© agentury, znÃ¡mÃ© takÃ© jako S.H.I.E.L.D., zjistÃ­, Å¾e potÅ™ebuje tÃ½m, aby odvrÃ¡til svÄ›tovou katastrofu. ZaÄÃ­nÃ¡ provÃ¡dÄ›t nÃ¡bor po celÃ©m svÄ›tÄ›.",
     "main_picture": ""
   }
-}
+},
+    {
+      "model": "filmy.movie",
+      "pk": 3,
+      "fields": {
+        "name": "Rambo Dog",
+        "year": 2024,
+        "footage": 120,
+        "description": "NOT OUT YET",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.movie",
+      "pk": 4,
+      "fields": {
+        "name": "Harry Potter 2042",
+        "year": 2024,
+        "footage": 190,
+        "description": "NOT OUT YET",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.movie",
+      "pk": 5,
+      "fields": {
+        "name": "Nebe a zem",
+        "year": 2024,
+        "footage": 153,
+        "description": "NOT OUT YET",
+        "main_picture": ""
+      }
+    }
 ]
