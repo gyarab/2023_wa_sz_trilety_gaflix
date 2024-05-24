@@ -29,7 +29,6 @@
     "year": 2012,
     "footage": 143,
     "description": "Marvel Studios uvádí super hrdinský tým všech dob Avengers, ve kterém se přestaví ikoničtí super hrdinové – Iron Man, Neuvěřitelný Hulk, Thor, Captain America, Hawkeye a Black Widow. Když se objeví nečekaný nepřítel, který ohrožuje světovou bezpečnost, Nick Fury, ředitel mezinárodní mírové agentury, známé také jako S.H.I.E.L.D., zjistí, že potřebuje tým, aby odvrátil světovou katastrofu. Začíná provádět nábor po celém světě.",
-<<<<<<< HEAD
     "main_picture": ""
   }
 },
@@ -52,42 +51,7 @@
     "year": 2024,
     "footage": 153,
     "description": "NOT OUT YET",
-=======
->>>>>>> 8c453490e0ad44159ca40074ccb25934007ab208
     "main_picture": ""
   }
-},
-    {
-      "model": "filmy.movie",
-      "pk": 3,
-      "fields": {
-        "name": "Rambo Dog",
-        "year": 2024,
-        "footage": 120,
-        "description": "NOT OUT YET",
-        "main_picture": ""
-      }
-    },
-    {
-      "model": "filmy.movie",
-      "pk": 4,
-      "fields": {
-        "name": "Harry Potter 2042",
-        "year": 2024,
-        "footage": 190,
-        "description": "NOT OUT YET",
-        "main_picture": ""
-      }
-    },
-    {
-      "model": "filmy.movie",
-      "pk": 5,
-      "fields": {
-        "name": "Nebe a zem",
-        "year": 2024,
-        "footage": 153,
-        "description": "NOT OUT YET",
-        "main_picture": ""
-      }
-    }
+}
 ]
