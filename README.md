@@ -16,3 +16,4 @@ Initial setup commands
 -----------------------------------
 
 ./manage.py createsuperuser
+UTF-8 Chars: sh - export PYTHONIOENCODING=utf-8 && python manage.py dumpdata --indent 2 filmy.Movie > fixtures/film.json
