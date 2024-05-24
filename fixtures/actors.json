@@ -1,1 +1,52 @@
-[{"model": "filmy.actor", "pk": 1, "fields": {"name": "Tom Holland", "birth_year": 1996, "description": "Best known for playing Spider-Man in the Marvel Cinematic Universe, including his debut starring role as the superhero in the 2017 film Spider-Man: Homecoming. Earlier in his acting career, he portrayed the title character in Billy Elliot: The Musical in London and starred in the 2012 feature The Impossible. In 2020, he starred in the Netflix film The Devil All the Time.", "main_picture": ""}}, {"model": "filmy.actor", "pk": 2, "fields": {"name": "DWAYNE JOHNSON", "birth_year": 1972, "description": "Initially gained fame as the wrestler The Rock, competing in the WWF and WWE from 1996 to 2004. He then became a widely popular actor, starring in such films as Hercules, San Andreas and the Fast and the Furious franchise.", "main_picture": ""}}, {"model": "filmy.actor", "pk": 3, "fields": {"name": "TIMOTHï¿½E CHALAMET", "birth_year": 1995, "description": "Actor who received an Academy Award nomination for his first leading role in the 2017 film Call Me by Your Name. He plays the lead character, King Henry V, in the 2019 film The King and also played prominent roles in Lady Bird, Hostiles, Beautiful Boy, and Little Women. He later starred as Paul Atreides in Dune.", "main_picture": ""}}, {"model": "filmy.actor", "pk": 4, "fields": {"name": "LEONARDO DICAPRIO", "birth_year": 1974, "description": "Actor who first rose to prominence for his roles in the 1990's films What's Eating Gilbert Grape, Romeo + Juliet and Titanic. He then went on to star in Catch Me If You Can, Blood Diamond, The Departed and Inception. He won an Academy Award for Best Actor for his role as Hugh Glass in the 2015 film The Revenant.", "main_picture": ""}}, {"model": "filmy.actor", "pk": 5, "fields": {"name": "age: 27Daniel Radcliffe at age 27 age: 26Daniel Radcliffe at age 26 age: 25Daniel Radcliffe at age 25 age: 24Daniel Radcliffe at age 24 age: 23Daniel Radcliffe at age 23 age: 23Daniel Radcliffe at age 23 age: 23Daniel Radcliffe at age 23 age: 22Daniel Radcliffe at age 22 DANIEL RADCLIFFE", "birth_year": 1989, "description": "Actor best known for playing the wizard-in-training Harry Potter in the landmark Harry Potter film franchise. The role earned him numerous awards including multiple Teen Choice Awards and MTV Movie Awards as well as a National Movie Award for Best Male Performance in 2007. In 2019, he'd begin starring as Craig in the TBS series Miracle Workers.", "main_picture": ""}}]
+[
+{
+  "model": "filmy.actor",
+  "pk": 1,
+  "fields": {
+    "name": "Tom Holland",
+    "birth_year": 1996,
+    "description": "Best known for playing Spider-Man in the Marvel Cinematic Universe, including his debut starring role as the superhero in the 2017 film Spider-Man: Homecoming. Earlier in his acting career, he portrayed the title character in Billy Elliot: The Musical in London and starred in the 2012 feature The Impossible. In 2020, he starred in the Netflix film The Devil All the Time.",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 2,
+  "fields": {
+    "name": "DWAYNE JOHNSON",
+    "birth_year": 1972,
+    "description": "Initially gained fame as the wrestler The Rock, competing in the WWF and WWE from 1996 to 2004. He then became a widely popular actor, starring in such films as Hercules, San Andreas and the Fast and the Furious franchise.",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 3,
+  "fields": {
+    "name": "TIMOTHÉE CHALAMET",
+    "birth_year": 1995,
+    "description": "Actor who received an Academy Award nomination for his first leading role in the 2017 film Call Me by Your Name. He plays the lead character, King Henry V, in the 2019 film The King and also played prominent roles in Lady Bird, Hostiles, Beautiful Boy, and Little Women. He later starred as Paul Atreides in Dune.",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 4,
+  "fields": {
+    "name": "LEONARDO DICAPRIO",
+    "birth_year": 1974,
+    "description": "Actor who first rose to prominence for his roles in the 1990's films What's Eating Gilbert Grape, Romeo + Juliet and Titanic. He then went on to star in Catch Me If You Can, Blood Diamond, The Departed and Inception. He won an Academy Award for Best Actor for his role as Hugh Glass in the 2015 film The Revenant.",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 5,
+  "fields": {
+    "name": "age: 27Daniel Radcliffe at age 27 age: 26Daniel Radcliffe at age 26 age: 25Daniel Radcliffe at age 25 age: 24Daniel Radcliffe at age 24 age: 23Daniel Radcliffe at age 23 age: 23Daniel Radcliffe at age 23 age: 23Daniel Radcliffe at age 23 age: 22Daniel Radcliffe at age 22 DANIEL RADCLIFFE",
+    "birth_year": 1989,
+    "description": "Actor best known for playing the wizard-in-training Harry Potter in the landmark Harry Potter film franchise. The role earned him numerous awards including multiple Teen Choice Awards and MTV Movie Awards as well as a National Movie Award for Best Male Performance in 2007. In 2019, he'd begin starring as Craig in the TBS series Miracle Workers.",
+    "main_picture": ""
+  }
+}
+]
