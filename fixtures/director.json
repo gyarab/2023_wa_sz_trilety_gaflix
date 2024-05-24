@@ -3,9 +3,9 @@
   "model": "filmy.director",
   "pk": 1,
   "fields": {
-    "name": "Jan Hrebejk",
+    "name": "Jan Hřebejk",
     "birth_year": 1967,
-    "description": "Narodil se v Praze. Po    ve   na FAMU kde studoval obor , dramaturg.    na konci 80. let  ve  produkci dva   CO CHCETE  O SEXU A  SE TO  a L.P. .  napsal spolu s   Petrem   k     Trojana   DOHOLA. Zlom v jeho  vak znamenal  rok 1993,",
+    "description": "Narodil se v Praze. Po dokončení Akademického gymnázia ve Štěpánské zamířil na FAMU kde studoval obor scénárista, dramaturg. Už během studií na konci 80. let zrežíroval ve vlastní produkci dva krátkometrážní snímky CO VŠECHNO CHCETE VĚDĚT O SEXU A BOJÍTE SE TO PROŽÍT a L.P. 1948. Následně napsal spolu s někdejším spolužákem Petrem Jarchovským scénář k filmové komedii debutujícího Ondřeje Trojana PĚJME PÍSEŇ DOHOLA. Zlom v jeho kariéře však znamenal až rok 1993,…",
     "main_picture": ""
   }
 },
@@ -15,7 +15,37 @@
   "fields": {
     "name": "Doug Liman",
     "birth_year": 1965,
-    "description": "Narodil se v roce 1965 v New Yorku.",
+    "description": "Narodil se v roce 1965 v New Yorku. Připojil se k International Center of Photography už během studia na střední škole. Navštěvoval Brown Univerzity na Rhode Islandu, kde také pomohl při vytváření místní studentské kabelové televize. Krátké filmečky Liman natáčel už od svých sedmi let. Navštěvoval a absolvoval program Škola biografu a televize na Univerzity of Southern California, kde také režíroval svůj první osobní projekt, komediální thriller GETTING IN (1994), kde si zahrál Stephen Mailer a Matthew Perry.\r\n\r\nÚspěch však přišel s filmem SWINGERS (1996), který se stal menšinovým hitem na různých filmových festivalech. Film byl natočen téměř zadarmo rozpočet činil $250 000. Peníze mu pomohl sehnat jeho otec pozdější protiiránský vyšetřovatel Arthur Liman, který také vykonával u filmu post právního zástupce produkce filmu. Scénář filmu získal Liman od Jona Favreaua, který si zároveň zahrál hlavní roli společně s Vincem Vaughnem, Ronem Livingstonem a Patrickem van Hornem. Děj se točil okolo hledání lásky v prostředí retro swingových barů v Las Vegas. Liman zde také zastal funkci hlavního kameramana. Jeho dalším režijním počinem se stal film GO (1999). Film se stal hitem na festivalu v Sundance a kritika se k němu postavila taky kladně. Ve třech různých, ale propojených příbězích, které jsou někdy označovány jako teeangerské Pulp Fiction, si zahráli Sarah Polley, Katie Holmes nebo William Fichtner. Podobně jako u Swingers, tak i zde si Liman stoupnul za kameru.",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.director",
+  "pk": 3,
+  "fields": {
+    "name": "Jarmil Fungo",
+    "birth_year": 1967,
+    "description": "legend",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.director",
+  "pk": 4,
+  "fields": {
+    "name": "Michal Jakotoš",
+    "birth_year": 1989,
+    "description": "deaf",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.director",
+  "pk": 5,
+  "fields": {
+    "name": "Jakub Bundoklas",
+    "birth_year": 1986,
+    "description": "no",
     "main_picture": ""
   }
 }
