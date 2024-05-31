@@ -4,13 +4,12 @@
 
 {% block 'content' %}
     <h1>Filmy</h1>
-    <ul>
-        <li>{{movies.0.name}} {% url 'movie' movies.0.id %}</li>
-        <li>{{movies.1.name}}</li>
-    </ul>
 
+    {% for movie in movies %}
+    {{movie.name}} {{movie.year}} {{movie.director}} <br>
+    {% endfor %}
 
-    
+<hr>
     <div class="row row-cols-1  row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-2">
         <div class="col">
             <div class="card h-100">
