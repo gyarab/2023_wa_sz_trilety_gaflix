@@ -9,12 +9,21 @@ class MovieAdmin(admin.ModelAdmin):
     list_filter = ['genres' , 'year']
 
 class DirectorAdmin(admin.ModelAdmin):
-    pass
+     list_display = ["id", "name", "birth_year"]
+     pass
+   
 
 class GenreAdmin(admin.ModelAdmin):
+    list_display = ["id", "name"]
+    list_display_links = ["id", "name"]
+    search_fields = ["name"]
     pass
 
 class ActorAdmin(admin.ModelAdmin):
+    list_display = ["id", "name", "birth_year"]
+    list_display_links = ["id", "name"]
+    search_fields = ["name"]
+    list_filter = ["birth_year"]
     pass
 
 admin.site.register(Movie, MovieAdmin)
