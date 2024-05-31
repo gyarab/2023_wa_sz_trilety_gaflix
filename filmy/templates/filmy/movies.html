@@ -4,46 +4,43 @@
 
 {% block 'content' %}
     <h1>Filmy</h1>
+    <form action=".">
+        {% csrf_token %}
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="..." aria-label="Recipient's username" aria-describedby="basic-addon2" name="search">
+            <div class="input-group-append">
+                <button class="btn btn-outline-primary" type="submit">Hledat</button>
+            </div>
+        </div>
+    </form> 
+    
+    <form action="">
+        {% csrf_token %}
+        {% for gener in genres %}
+        <button type="submit" class="btn btn-outline-primary" style="margin-bottom: 5px;" name="genre" value="{{ gener.name }}">{{ gener.name }}</button>
+        {% endfor %}
+    </form>
 
-    {% for movie in movies %}
-    {{movie.name}} {{movie.year}} {{movie.director}} <br>
-    {% endfor %}
-
-<hr>
+    
     <div class="row row-cols-1  row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-2">
+        {% for movie in movies %}
         <div class="col">
             <div class="card h-100">
-                <img class="card-img-top" src="https://place-hold.it/180x100/" alt="Card image cap">
+                <img class="card-img-top" src="{{ movie.main_picture }}" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Django unchained</h5>
+                    <h5 class="card-title">{{ movie.name }}</h5>
                     
-                    <span class="badge rounded-pill text-bg-primary">Comedy</span>
-                    <span class="badge rounded-pill text-bg-primary">Action</span>
-                    <span class="badge rounded-pill text-bg-primary">Western</span>
+                    {% for gener in movie.genres.all %}
+                    <span class="badge rounded-pill text-bg-primary">{{ gener.name }}</span>
+                    {% endfor %}
 
-                    <p class="card-text ">Lorem ipsum</p>
+                    <p class="card-text ">{{ movie.description|truncatewords:30 }}</p>
                 </div>
                 <div class="card-footer text-end">
                     <a href="#" class="btn btn-primary">Detaily</a>
                 </div>
             </div>
         </div>
-            
-        <div class="col">
-            <div class="card h-100">
-                <img class="card-img-top" src="https://place-hold.it/180x100/" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Shrek</h5>
-                    
-                    <span class="badge rounded-pill text-bg-primary">Comedy</span>
-                    <span class="badge rounded-pill text-bg-primary">Family</span>
-
-                    <p class="card-text ">Lorem ipsum</p>
-                </div>
-                <div class="card-footer text-end">
-                    <a href="#" class="btn btn-primary">Detaily</a>
-                </div>
-            </div>
-        </div>
+        {% endfor %}
     </div>
 {% endblock %}
