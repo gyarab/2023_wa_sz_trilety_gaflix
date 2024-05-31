@@ -13,6 +13,13 @@
             </div>
         </div>
     </form> 
+
+    <form action=".">
+        {% csrf_token %}
+        {% for gener in genres %}
+        <button type="submit" class="btn btn-outline-primary" style="margin-bottom: 5px;" name="genre" value="{{ gener.name }}">{{ gener.name }}</button>
+        {% endfor %}
+    </form>
     
     <div class="row row-cols-1  row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-2">
         {% for movie in movies %}
