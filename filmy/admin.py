@@ -10,10 +10,8 @@ class MovieAdmin(admin.ModelAdmin):
 
 class DirectorAdmin(admin.ModelAdmin):
      list_display = ["id", "name", "birth_year"]
-    list_display_links = ["id", "name"]
-    search_fields = ["name"]
-    list_filter = ["birth_year"]
-    pass
+     pass
+   
 
 class GenreAdmin(admin.ModelAdmin):
     list_display = ["id", "name"]
