@@ -1,0 +1,50 @@
+{% extends 'filmy/base.html' %}
+
+{% block 'title' %}Filmy | {{ block.super }}{% endblock %}
+
+{% block 'content' %}
+    <h1>Filmy</h1>
+    <ul>
+        <li>{{movies.0.name}} {% url 'movie' movies.0.id %}</li>
+        <li>{{movies.1.name}}</li>
+    </ul>
+
+
+    
+    <div class="row row-cols-1  row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-2">
+        <div class="col">
+            <div class="card h-100">
+                <img class="card-img-top" src="https://place-hold.it/180x100/" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Django unchained</h5>
+                    
+                    <span class="badge rounded-pill text-bg-primary">Comedy</span>
+                    <span class="badge rounded-pill text-bg-primary">Action</span>
+                    <span class="badge rounded-pill text-bg-primary">Western</span>
+
+                    <p class="card-text ">Lorem ipsum</p>
+                </div>
+                <div class="card-footer text-end">
+                    <a href="#" class="btn btn-primary">Detaily</a>
+                </div>
+            </div>
+        </div>
+            
+        <div class="col">
+            <div class="card h-100">
+                <img class="card-img-top" src="https://place-hold.it/180x100/" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Shrek</h5>
+                    
+                    <span class="badge rounded-pill text-bg-primary">Comedy</span>
+                    <span class="badge rounded-pill text-bg-primary">Family</span>
+
+                    <p class="card-text ">Lorem ipsum</p>
+                </div>
+                <div class="card-footer text-end">
+                    <a href="#" class="btn btn-primary">Detaily</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
