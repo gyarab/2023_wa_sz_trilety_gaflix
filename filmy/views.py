@@ -7,7 +7,7 @@ from django.db.models import Q
 def movies(request):
     movies_queryset = Movie.objects.all()
     genre = request.GET.get("genre")
-    if genre:
+    if genre and genre != "all":
         movies_queryset = movies_queryset.filter(genres__name=genre)
     search = request.GET.get("search")
     if search:

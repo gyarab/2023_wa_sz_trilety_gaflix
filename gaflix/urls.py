@@ -17,6 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.views.generic import TemplateView
+from filmy import views
 from filmy.views import movies
 
 urlpatterns = [
@@ -25,4 +26,5 @@ urlpatterns = [
     path('prvni/', TemplateView.as_view(template_name="filmy/prvni.html")),
     path('druha/', TemplateView.as_view(template_name="filmy/druha.html")),
     path("filmy/", movies, name="movies"),
+    path("film/<int:id>", views.movie, name="movie"),
 ]

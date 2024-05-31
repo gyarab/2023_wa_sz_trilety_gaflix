@@ -14,8 +14,9 @@
         </div>
     </form> 
 
-    <form action=".">
+    <form action="">
         {% csrf_token %}
+        <button type="submit" class="btn btn-outline-primary" style="margin-bottom: 5px;" name="genre" value="all"> all </button>
         {% for gener in genres %}
         <button type="submit" class="btn btn-outline-primary" style="margin-bottom: 5px;" name="genre" value="{{ gener.name }}">{{ gener.name }}</button>
         {% endfor %}
