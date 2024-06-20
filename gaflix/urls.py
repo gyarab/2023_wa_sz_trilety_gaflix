@@ -27,4 +27,9 @@ urlpatterns = [
     path('druha/', TemplateView.as_view(template_name="filmy/druha.html")),
     path("filmy/", movies, name="movies"),
     path("film/<int:id>", views.movie, name="movie"),
+    path('actors/', actors, name="actors"),
+    path('actor/<int:id>', actor, name="actor"),
+    path('directors/', directors, name="directors"),
+    path('director/<int:id>', director, name="director"),
+    
 ]
