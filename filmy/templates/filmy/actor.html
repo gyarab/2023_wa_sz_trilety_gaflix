@@ -1,0 +1,18 @@
+{% extends 'filmy/base.html' %}
+
+{% block 'title' %}{{ block.super }} herec {% endblock %}
+
+{% block 'content' %}
+<h1>Herec {{ actor.name }}</h1>
+
+<div class="col-10 col-md-6">
+    <img src="{{actor.main_picture}}" class="img-fluid" alt="Responsive image">
+</div>
+<div class="text-start">
+    <p>{{actor.description}}</p>
+</div>
+
+
+
+
+{% endblock %}
