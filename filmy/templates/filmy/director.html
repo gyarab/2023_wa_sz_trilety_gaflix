@@ -1,0 +1,18 @@
+{% extends 'filmy/base.html' %}
+
+{% block 'title' %}{{ block.super }} režisér {% endblock %}
+
+{% block 'content' %}
+<h1>Herec {{ director.name }}</h1>
+
+<div class="col-10 col-md-6">
+  <img src="{{director.main_picture}}" class="img-fluid" alt="Responsive image">
+</div>
+<div class="text-start">
+  <p>{{director.description}}</p>
+</div>
+
+
+
+
+{% endblock %}
