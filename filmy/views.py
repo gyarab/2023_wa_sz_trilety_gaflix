@@ -32,6 +32,33 @@ def movie(request, id):
     }
     return render(request, "filmy/movie.html", context)
 
-def reziseri(request):
-    
-    return render(request, 'filmy/druhy.html')
+def actors(request):
+    context = {
+        'actors': Actor.objects.all().order_by('name')
+    }
+
+    return render(request, 'filmy/actors.html', context)
+
+
+def actor(request, id):
+    context = {
+        'actor': Actor.objects.get(id=id)
+    }
+
+    return render(request, 'filmy/actor.html', context)
+
+
+def director(request, id):
+    context = {
+        'director': Director.objects.get(id=id)
+    }
+
+    return render(request, 'filmy/director.html', context)
+
+
+def directors(request):
+    context = {
+        'directors': Director.objects.all().order_by('name')
+    }
+
+    return render(request, 'filmy/directors.html', context)
