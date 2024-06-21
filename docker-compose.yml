@@ -12,17 +12,17 @@ services:
     labels:
       - "traefik.enable=true"
 
-      - "traefik.http.routers.wa-rt-http.rule=Host(`rt.wa.dtcloud.cz`)"
-      - "traefik.http.routers.wa-rt-http.entrypoints=web"
-      - "traefik.http.routers.wa-rt-http.middlewares=wa-rt-redirect-https@docker"
+      - "traefik.http.routers.wa-rt1-http.rule=Host(`rt1.wa.dtcloud.cz`)"
+      - "traefik.http.routers.wa-rt1-http.entrypoints=web"
+      - "traefik.http.routers.wa-rt1-http.middlewares=wa-rt1-redirect-https@docker"
 
-      - "traefik.http.middlewares.wa-rt-redirect-https.redirectscheme.scheme=https"
-      - "traefik.http.middlewares.wa-rt-redirect-https.redirectscheme.permanent=true"
+      - "traefik.http.middlewares.wa-rt1-redirect-https.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.wa-rt1-redirect-https.redirectscheme.permanent=true"
 
-      - "traefik.http.routers.wa-rt-https.rule=Host(`rt.wa.dtcloud.cz`)"
-      - "traefik.http.routers.wa-rt-https.entrypoints=websecure"
-      - "traefik.http.routers.wa-rt-https.tls=true"
-      - "traefik.http.routers.wa-rt-https.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.wa-rt1-https.rule=Host(`rt1.wa.dtcloud.cz`)"
+      - "traefik.http.routers.wa-rt1-https.entrypoints=websecure"
+      - "traefik.http.routers.wa-rt1-https.tls=true"
+      - "traefik.http.routers.wa-rt1-https.tls.certresolver=letsencrypt"
 
   static:
     image: nginx:alpine
@@ -34,14 +34,14 @@ services:
     labels:
       - "traefik.enable=true"
 
-      - "traefik.http.routers.wa-rt-static-http.rule=Host(`rt.wa.dtcloud.cz`) && PathPrefix(`/static`)"
-      - "traefik.http.routers.wa-rt-static-http.entrypoints=web"
-      - "traefik.http.routers.wa-rt-static-http.middlewares=wa-rt-static-redirect-https@docker"
+      - "traefik.http.routers.wa-rt1-static-http.rule=Host(`rt1.wa.dtcloud.cz`) && PathPrefix(`/static`)"
+      - "traefik.http.routers.wa-rt1-static-http.entrypoints=web"
+      - "traefik.http.routers.wa-rt1-static-http.middlewares=wa-rt1-static-redirect-https@docker"
 
-      - "traefik.http.middlewares.wa-rt-static-redirect-https.redirectscheme.scheme=https"
-      - "traefik.http.middlewares.wa-rt-static-redirect-https.redirectscheme.permanent=true"
+      - "traefik.http.middlewares.wa-rt1-static-redirect-https.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.wa-rt1-static-redirect-https.redirectscheme.permanent=true"
 
-      - "traefik.http.routers.wa-rt-static-https.rule=Host(`rt.wa.dtcloud.cz`) && PathPrefix(`/static`)"
-      - "traefik.http.routers.wa-rt-static-https.entrypoints=websecure"
-      - "traefik.http.routers.wa-rt-static-https.tls=true"
-      - "traefik.http.routers.wa-rt-static-https.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.wa-rt1-static-https.rule=Host(`rt1.wa.dtcloud.cz`) && PathPrefix(`/static`)"
+      - "traefik.http.routers.wa-rt1-static-https.entrypoints=websecure"
+      - "traefik.http.routers.wa-rt1-static-https.tls=true"
+      - "traefik.http.routers.wa-rt1-static-https.tls.certresolver=letsencrypt"
