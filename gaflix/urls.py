@@ -32,8 +32,4 @@ urlpatterns = [
     path('directors/', directors, name="directors"),
     path('director/<int:id>', director, name="director"),
     
-<<<<<<< HEAD
 ]
-=======
-]
->>>>>>> c702ea959a1b52bc44d500c478835f7acd64055b
